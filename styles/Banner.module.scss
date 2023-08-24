@@ -1,0 +1,19 @@
+.banner_canvas {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: -100px;
+  z-index: 1;
+  overflow: hidden;
+  opacity: 0.5;
+  display: block;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
