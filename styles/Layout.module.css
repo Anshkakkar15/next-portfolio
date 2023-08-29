@@ -29,7 +29,7 @@
   background-color: #1b2b34;
   height: 50%;
   width: 100%;
-  transform: translateX(100%);
+  transform: translateX(-100%);
   position: absolute;
   top: 0;
   z-index: -1;
@@ -45,7 +45,6 @@
   transform: translateX(-100%);
   z-index: -1;
   transition: 500ms ease-in-out;
-  transition-delay: 0.05s;
 }
 
 .list {
@@ -150,8 +149,9 @@
 
 .primary_nav.active::after {
   transform: translateX(0%);
+  transition-delay: 0.05s;
 }
 .nav_opac {
   opacity: 1;
-  transition: 4s;
+  transition: 3s;
 }
