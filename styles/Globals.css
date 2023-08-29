@@ -10,3 +10,21 @@ body {
   overflow-x: hidden;
   background-color: #f8f8f8 !important;
 }
+.container {
+  max-width: 1700px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+@media screen and (max-width: 1700px) {
+  .container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}

@@ -1,7 +1,7 @@
 .nav_wrapper {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: space-between;
   height: 80px;
   position: relative;
 }
@@ -23,6 +23,7 @@
   transition: 500ms ease-in-out;
   z-index: 99;
   top: 0;
+  left: 0;
 }
 .primary_nav:before {
   content: "";
@@ -110,8 +111,6 @@
   gap: 0.2rem;
   align-items: flex-end;
   cursor: pointer;
-  position: absolute;
-  right: 1.35rem;
   z-index: 99999;
 }
 .menu.opened {
@@ -154,4 +153,16 @@
 .nav_opac {
   opacity: 1;
   transition: 3s;
+}
+.contact_btn {
+  margin-right: 13px;
+}
+.contact_btn button {
+  background-color: red;
+  padding: 8px 25px;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
 }
