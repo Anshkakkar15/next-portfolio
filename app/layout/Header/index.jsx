@@ -22,13 +22,13 @@ export const Header = ({ styles }) => {
           </div>
         </nav>
       </div>
-      <div class={`${styles.primary_nav} ${open ? styles.active : ""}`}>
-        <ul class={`${styles.list} ${open ? styles.nav_opac : ""}`}>
+      <div className={`${styles.primary_nav} ${open ? styles.active : ""}`}>
+        <ul className={`${styles.list} ${open ? styles.nav_opac : ""}`}>
           {HeaderData?.map((el) => {
             return (
               <li style={{ visibility: open ? "visible" : "hidden" }}>
                 <Link
-                  class={`${styles.nav_link}`}
+                  className={`${styles.nav_link}`}
                   href={el?.slug}
                   onClick={() => setOpen(false)}
                 >

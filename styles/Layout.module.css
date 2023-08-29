@@ -26,6 +26,7 @@
   left: 0;
   text-transform: uppercase;
   cursor: pointer;
+  visibility: hidden;
 }
 .primary_nav:before {
   content: "";
@@ -146,15 +147,19 @@
 
 .primary_nav.active::before {
   transform: translateX(0%);
+  visibility: visible;
 }
 
 .primary_nav.active::after {
+  visibility: visible;
+
   transform: translateX(0%);
   transition-delay: 0.05s;
 }
 .nav_opac {
   opacity: 1;
   transition: 3s;
+  visibility: visible;
 }
 .contact_btn {
   margin-right: 13px;
@@ -167,4 +172,33 @@
   color: white;
   border-radius: 50px;
   cursor: pointer;
+}
+
+/*  footer */
+
+.footer_head {
+  font-family: "Poppins", sans-serif;
+  padding: 4rem 0;
+}
+
+.site_logo a {
+  font-size: 30px;
+  color: #000;
+  font-weight: 900;
+}
+
+.social_icon li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 15px 0;
 }
