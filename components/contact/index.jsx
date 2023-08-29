@@ -39,7 +39,7 @@ export const ChatBox = ({ openChat, setOpenChat }) => {
           </div>
           <div className={`${styles.msg} ${styles.msg_left}`}>
             <div className={styles.bubble}>
-              Yes, Of course! Adnan Khan created me. <br />
+              Yes, Of course! Ansh Kakkar created me. <br />
               He's behind my awesomeness. He did a great job. didn't he?
             </div>
           </div>
