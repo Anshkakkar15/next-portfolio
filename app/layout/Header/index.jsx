@@ -1,4 +1,5 @@
 import { HeaderData } from "app/common/mock";
+import Link from "next/link";
 import React, { useState } from "react";
 
 export const Header = ({ styles }) => {
@@ -26,9 +27,13 @@ export const Header = ({ styles }) => {
           {HeaderData?.map((el) => {
             return (
               <li style={{ visibility: open ? "visible" : "hidden" }}>
-                <a class={`${styles.nav_link}`} href={el?.link}>
+                <Link
+                  class={`${styles.nav_link}`}
+                  href={el?.slug}
+                  onClick={() => setOpen(false)}
+                >
                   {el?.name}
-                </a>
+                </Link>
               </li>
             );
           })}
