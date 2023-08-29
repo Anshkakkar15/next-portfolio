@@ -1,9 +1,11 @@
 import { HeaderData } from "app/common/mock";
+import { ChatBox } from "components/contact";
 import Link from "next/link";
 import React, { useState } from "react";
 
 export const Header = ({ styles }) => {
   const [open, setOpen] = useState(false);
+  const [openChat, setOpenChat] = useState(false);
   return (
     <>
       <div className="container">
@@ -11,10 +13,13 @@ export const Header = ({ styles }) => {
           <div className={styles.logo}>Logo</div>
           <div className="d-flex align-items-center">
             <div className={styles.contact_btn}>
-              <button>Contact</button>
+              <button onClick={() => setOpenChat(!openChat)}>Contact</button>
             </div>
             <div
-              onClick={() => setOpen(!open)}
+              onClick={() => {
+                setOpen(!open);
+                setOpenChat(false);
+              }}
               className={`${styles.menu} ${open ? styles.opened : ""}`}
             >
               <div className={styles.middle}></div>
@@ -39,6 +44,7 @@ export const Header = ({ styles }) => {
           })}
         </ul>
       </div>
+      <ChatBox openChat={openChat} setOpenChat={setOpenChat} />
     </>
   );
 };

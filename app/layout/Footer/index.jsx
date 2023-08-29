@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 
 export const Footer = ({ styles }) => {
@@ -47,7 +47,6 @@ export const Footer = ({ styles }) => {
             </ul>
           </div>
         </div>
-
         <div className={`${styles.copyright} text-center `}>
           <p className="mb-0">
             Copyright {new Date()?.getFullYear()}. All Rights Reserved.

@@ -1,39 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none !important;
-}
-
-body {
-  overflow-x: hidden;
-  background-color: #f8f8f8 !important;
-}
-.container {
-  max-width: 1700px !important;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-}
-
-@media screen and (max-width: 1700px) {
-  .container {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-  }
-}
-@media screen and (max-width: 767px) {
-  .container {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-}
-
 .chat_bot {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 99999999999999999;
+  z-index: 99999;
   height: auto;
   float: right;
 }
@@ -44,15 +13,45 @@ body {
 }
 .chat_bot .expanded {
   visibility: visible;
-  height: 500px;
+  height: 600px;
   width: 500px;
 }
 
+.chat_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #393d4a;
+  color: #fff;
+}
+.name_vbss {
+  padding: 10px;
+}
+.name_vbss h2 {
+  font-size: 23px;
+}
+.name_vbss p {
+  margin: 0;
+}
+.close_box {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+}
 .messenger {
   background-color: #fff;
   border: 1px solid #0f513238;
   box-shadow: 0 30px 50px #0000000d;
-  padding: 10px;
   margin-bottom: 10px;
   height: 390px;
   border-radius: 10px;
@@ -68,6 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   touch-action: pan-y;
+  padding: 10px;
 }
 .chatroom::-webkit-scrollbar {
   display: none;
@@ -99,4 +99,19 @@ body {
 }
 .msg.msg_right {
   align-items: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  .chat_bot {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+    height: auto;
+  }
+  .chat_bot .expanded {
+    height: 100vh;
+    width: 100vw;
+  }
 }
