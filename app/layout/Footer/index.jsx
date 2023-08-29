@@ -17,7 +17,7 @@ export const Footer = ({ styles }) => {
             >
               <li>
                 <a
-                  href="#"
+                  href="https://in.linkedin.com/in/ansh-kakkar-65464922b?trk=people-guest_people_search-card"
                   className="fb"
                   target="_blank"
                   style={{ background: "#3b579b" }}
