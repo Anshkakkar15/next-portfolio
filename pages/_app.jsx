@@ -1,4 +1,4 @@
-import "styles/Globals.scss";
+import "styles/Globals.css";
 import { MasterLayout } from "app/layout";
 
 import "bootstrap/dist/css/bootstrap.min.css";

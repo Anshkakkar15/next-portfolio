@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "styles/Banner.module.scss";
+import styles from "styles/Banner.module.css";
 
 export const Banner = () => {
   return (
