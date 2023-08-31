@@ -29,9 +29,9 @@ export const Header = ({ styles }) => {
       </div>
       <div className={`${styles.primary_nav} ${open ? styles.active : ""}`}>
         <ul className={`${styles.list} ${open ? styles.nav_opac : ""}`}>
-          {HeaderData?.map((el) => {
+          {HeaderData?.map((el, i) => {
             return (
-              <li style={{ visibility: open ? "visible" : "hidden" }}>
+              <li key={i} style={{ visibility: open ? "visible" : "hidden" }}>
                 <Link
                   className={`${styles.nav_link}`}
                   href={el?.slug}
