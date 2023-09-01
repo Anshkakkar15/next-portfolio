@@ -7,6 +7,7 @@
 .logo {
   font-size: 2rem;
   font-family: "Andika", sans-serif;
+  color: #f5f4fc;
 }
 .primary_nav {
   margin: 0;
@@ -29,7 +30,7 @@
 }
 .primary_nav:before {
   content: "";
-  background-color: #1b2b34;
+  background-color: #3d155f;
   height: 50%;
   width: 100%;
   transform: translateX(-100%);
@@ -40,7 +41,7 @@
 }
 .primary_nav::after {
   content: "";
-  background-color: #1b2b34;
+  background-color: #3d155f;
   height: 50%;
   width: 100%;
   position: absolute;
@@ -63,17 +64,17 @@
 }
 
 .primary_nav li:nth-child(1) {
-  --_color: #6eb0f7;
+  --_color: #ccf381;
 }
 
 .primary_nav li:nth-child(2) {
-  --_color: #ff0374;
+  --_color: #ccf381;
 }
 .primary_nav li:nth-child(3) {
-  --_color: #ff9200;
+  --_color: #ccf381;
 }
 .primary_nav li:nth-child(4) {
-  --_color: #00c9c6;
+  --_color: #ccf381;
 }
 
 .nav_link {
@@ -107,7 +108,7 @@
 .menu {
   --height: 4px;
   --width: 16px;
-  --bg: #191a19;
+  --bg: #f5f4fc;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
@@ -163,11 +164,11 @@
   margin-right: 13px;
 }
 .contact_btn button {
-  background-color: #025a4e;
+  background-color: #f5f4fc;
   padding: 8px 25px;
   outline: none;
   border: none;
-  color: white;
+  color: #4831d4;
   border-radius: 50px;
   cursor: pointer;
   font-family: "Poppins", sans-serif;

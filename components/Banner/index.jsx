@@ -2,18 +2,16 @@ import React from "react";
 
 import styles from "styles/Banner.module.css";
 
-export const Banner = () => {
+export const Banner = ({ heading, content }) => {
   return (
     <div className={styles.banner_canvas}>
       <div className="container">
         <div className={styles.head}>
-          <h1>I'm Ansh. </h1>
+          <h1>{heading}</h1>
         </div>
         <div className={`${styles.body} row justify-content-center`}>
-          <p className="col-xl-6 col-lg-10 text-center">
-            Over the past 12+ years, I've worked in various areas of digital
-            design, including front-end development, email, marketing, and app
-            UI/UX. I'm proud to have worn many hats.
+          <p className="col-xl-5 col-lg-7 col-md-9 col-sm-11 text-center">
+            {content}
           </p>
         </div>
       </div>

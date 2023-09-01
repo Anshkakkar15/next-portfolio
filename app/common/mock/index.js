@@ -6,17 +6,17 @@ export const HeaderData = [
   },
   {
     id: 2,
-    slug: "/about",
-    name: "about",
+    slug: "/my-work",
+    name: "work",
   },
   {
     id: 3,
-    slug: "/projects",
-    name: "projects",
+    slug: "/notes",
+    name: "notes",
   },
   {
     id: 4,
-    slug: "/blogs",
-    name: "blogs",
+    slug: "/resume",
+    name: "resume",
   },
 ];
