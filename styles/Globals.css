@@ -2,13 +2,18 @@
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none !important;
 }
 
+html,
 body {
   overflow-x: hidden;
   background-color: #f8f8f8 !important;
+  font-family: "Andika", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   max-width: 1700px !important;

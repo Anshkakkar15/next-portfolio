@@ -7,12 +7,11 @@
 }
 .logo {
   font-size: 2rem;
-  font-weight: bold;
+  font-family: "Andika", sans-serif;
 }
 .primary_nav {
   margin: 0;
   color: #999999;
-  font-family: monospace;
   font-size: 2rem;
   height: 100vh;
   display: flex;
@@ -27,6 +26,7 @@
   text-transform: uppercase;
   cursor: pointer;
   visibility: hidden;
+  font-family: "Poppins", sans-serif;
 }
 .primary_nav:before {
   content: "";
@@ -152,7 +152,6 @@
 
 .primary_nav.active::after {
   visibility: visible;
-
   transform: translateX(0%);
   transition-delay: 0.05s;
 }
@@ -165,19 +164,20 @@
   margin-right: 13px;
 }
 .contact_btn button {
-  background-color: red;
+  background-color: #025a4e;
   padding: 8px 25px;
   outline: none;
   border: none;
   color: white;
   border-radius: 50px;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 
 /*  footer */
 
 .footer_head {
-  font-family: "Poppins", sans-serif;
+  font-family: "Andika", sans-serif;
   padding: 4rem 0;
 }
 
@@ -201,4 +201,5 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 15px 0;
+  font-family: "Poppins", sans-serif;
 }

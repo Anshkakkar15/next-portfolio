@@ -36,20 +36,6 @@ export const ChatBox = ({ openChat, setOpenChat }) => {
     })
     .flat();
 
-  // const updatedQuestions = [...Questions];
-
-  // chatting?.forEach((data) => {
-  //   const index = updatedQuestions.findIndex(
-  //     (el) =>
-  //       el.question.toLowerCase().replaceAll(" ", "_") ===
-  //       data.message.toLowerCase().replaceAll(" ", "_")
-  //   );
-
-  //   if (index !== -1) {
-  //     updatedQuestions.splice(index, 1);
-  //   }
-  // });
-
   return (
     <div className={styles.chat_bot}>
       <div
