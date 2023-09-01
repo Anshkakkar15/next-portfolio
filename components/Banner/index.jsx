@@ -7,7 +7,7 @@ export const Banner = () => {
     <div className={styles.banner_canvas}>
       <div className="container">
         <div className={styles.head}>
-          <h1>Hello </h1>
+          <h1>I'm Ansh. </h1>
         </div>
         <div className={`${styles.body} row justify-content-center`}>
           <p className="col-xl-6 col-lg-10 text-center">
