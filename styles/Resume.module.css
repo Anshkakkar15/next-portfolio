@@ -165,3 +165,9 @@
   color: second-color;
   margin: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .res_layout {
+    grid-template-columns: 1fr;
+  }
+}
