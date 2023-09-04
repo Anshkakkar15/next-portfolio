@@ -109,3 +109,17 @@ body {
 .msg.msg_right {
   align-items: flex-end;
 }
+
+.sub_heading h2 {
+  font-size: 25px !important;
+  margin: 0 !important;
+  margin-left: 15px !important;
+  margin-bottom: 15px !important;
+  font-family: "Andika", sans-serif !important;
+}
+
+hr {
+  border: 2px solid #4831d4 !important;
+  opacity: 1 !important;
+  margin: 0 !important;
+}

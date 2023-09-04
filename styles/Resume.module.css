@@ -1,0 +1,167 @@
+@value main-color:#4831d4;
+@value second-color:#0b0b0b;
+
+.bgg {
+  color: main-color;
+}
+
+.res_out {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.res_layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.contact h1 {
+  color: main-color;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 7px;
+  line-height: 30px;
+  font-family: "Andika", sans-serif;
+}
+
+.contact p {
+  color: second-color;
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+
+.contac_detail {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+.contac_lft {
+  background-color: main-color;
+  width: max-content;
+  color: #fff;
+  padding: 68px 18px 43px 18px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.cnt_icon {
+  font-size: 20px;
+}
+
+.right_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 15px;
+}
+.cnt_mail h3 {
+  font-size: 22px;
+  font-family: "Andika", sans-serif;
+  color: second-color;
+}
+.cnt_mail a {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: second-color;
+}
+
+.marg_tp {
+  margin-top: 30px;
+}
+
+.tech_sub ul {
+  list-style: none;
+}
+.tech_sub ul li {
+  font-size: 17px;
+  color: second-color;
+  font-family: "Poppins", sans-serif;
+  margin: 15px 0;
+}
+
+.tech_sub ul li:before {
+  width: 0.4em;
+  content: "";
+  height: 0.4em;
+  margin-right: 0.3em;
+  vertical-align: 10%;
+  display: inline-block;
+  filter: contrast(1.2);
+  background: currentColor;
+}
+/* projects */
+.projects p {
+  font-size: 16px;
+  margin: 15px;
+  line-height: 25px;
+  font-family: "Poppins", sans-serif;
+  color: second-color;
+}
+.projects p span {
+  margin: 0 10px;
+}
+
+/* summary */
+.summary p {
+  font-size: 20px;
+  margin: 15px;
+  line-height: 25px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  color: second-color;
+}
+
+/* education */
+.card_head {
+  margin: 15px;
+}
+.card_details {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.card_details .date p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 35px;
+  color: second-color;
+}
+.card_body h2 {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Andika", sans-serif;
+  line-height: 35px;
+  color: second-color;
+}
+.card_body h3 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  line-height: 35px;
+  color: second-color;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.card_body p {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  line-height: 35px;
+  color: second-color;
+  margin: 0;
+}

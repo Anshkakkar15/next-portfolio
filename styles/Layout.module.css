@@ -11,7 +11,7 @@
 }
 .primary_nav {
   margin: 0;
-  color: #f5f4fc;
+  color: #000;
   font-size: 2rem;
   height: 100vh;
   display: flex;
@@ -30,7 +30,7 @@
 }
 .primary_nav:before {
   content: "";
-  background-color: #3d155f;
+  background-color: #fff;
   height: 50%;
   width: 100%;
   transform: translateX(-100%);
@@ -41,7 +41,7 @@
 }
 .primary_nav::after {
   content: "";
-  background-color: #3d155f;
+  background-color: #fff;
   height: 50%;
   width: 100%;
   position: absolute;
@@ -64,17 +64,17 @@
 }
 
 .primary_nav li:nth-child(1) {
-  --_color: #ccf381;
+  --_color: #4831d4;
 }
 
 .primary_nav li:nth-child(2) {
-  --_color: #ccf381;
+  --_color: #4831d4;
 }
 .primary_nav li:nth-child(3) {
-  --_color: #ccf381;
+  --_color: #4831d4;
 }
 .primary_nav li:nth-child(4) {
-  --_color: #ccf381;
+  --_color: #4831d4;
 }
 
 .nav_link {
@@ -117,7 +117,7 @@
   z-index: 99999;
 }
 .menu.opened {
-  --bg: white;
+  --bg: #4831d4;
   transition-delay: 0.5s;
 }
 .menu .middle {
