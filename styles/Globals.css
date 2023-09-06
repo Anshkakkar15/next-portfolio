@@ -110,6 +110,12 @@ body {
   align-items: flex-end;
 }
 
+.sub_heading {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
 .sub_heading h2 {
   font-size: 25px !important;
   margin: 0 !important;
@@ -124,9 +130,15 @@ hr {
   margin: 0 !important;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 575px) {
   .sub_heading h2 {
     font-size: 20px !important;
+    margin-bottom: 8px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sub_heading h2 {
+    font-size: 23px !important;
     margin-bottom: 8px !important;
   }
 }

@@ -37,8 +37,7 @@
 }
 
 .contac_detail {
-  display: grid;
-  grid-template-columns: 10% 90%;
+  display: flex;
 }
 .contac_lft {
   background-color: main-color;
@@ -46,6 +45,7 @@
   color: #fff;
   padding: 68px 10px 43px 10px;
 }
+
 .icons {
   display: flex;
   flex-direction: column;
@@ -120,7 +120,7 @@
 
 /* summary */
 .summary p {
-  font-size: 20px;
+  font-size: 18px;
   margin: 15px;
   line-height: 25px;
   font-family: "Poppins", sans-serif;
@@ -173,19 +173,100 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1150px) {
   .res_layout {
     display: block;
   }
+  .right_sec {
+    padding: 0;
+    gap: 0;
+  }
+  /* .tech_sub ul {
+    padding: 0px 15px;
+    list-style: none;
+    display: flex;
+    column-gap: 23px;
+    flex-wrap: wrap;
+  }
+  .tech_sub ul li::before {
+    display: none;
+  } */
 }
 
 @media screen and (max-width: 830px) {
+  .date p {
+    font-size: 17px;
+  }
+  .card_body h2 {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+  }
+  .card_body h3 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 0;
+    margin: 5px 0;
+  }
+  .card_body p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin-top: 5px;
+  }
 }
 @media screen and (max-width: 767px) {
+  .contact h1 {
+    font-size: 26px;
+    letter-spacing: 5px;
+  }
+  .res_out {
+    padding: 15px;
+  }
+  .date br {
+    display: none;
+  }
+  .contac_lft {
+    padding: 68px 15px 43px 15px;
+  }
+  .summary p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .card_details {
+    display: block;
+  }
+  .card_details .date p {
+    margin-bottom: 2px;
+    font-size: 18px;
+  }
+  .card_body h2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+  }
+  .card_body h3 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 0;
+    margin: 5px 0;
+  }
+  .card_body p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0;
+  }
+  .tech_sub ul li {
+    font-size: 16px;
+    margin: 10px 0;
+  }
 }
 @media screen and (max-width: 575px) {
-}
-@media screen and (max-width: 475px) {
   .contact h1 {
     font-size: 22px;
     letter-spacing: 3px;
@@ -193,8 +274,12 @@
   .res_out {
     padding: 10px;
   }
-  .contac_detail {
-    grid-template-columns: 8% 90%;
+
+  .contac_lft {
+    background-color: #4831d4;
+    width: max-content;
+    color: #fff;
+    padding: 59px 13px 43px 13px;
   }
   .contact p {
     font-size: 16px;
@@ -208,6 +293,10 @@
   .cnt_mail a {
     font-size: 16px;
   }
+  .cnt_mail h3 {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
   .right_sec_v {
     padding: 10px 19px;
   }
@@ -220,21 +309,13 @@
     line-height: 23px;
     font-size: 14px;
   }
-  .right_sec {
-    padding: 0;
-  }
+
   .marg_tp {
     margin-top: 13px;
   }
   .summary p {
     font-size: 14px;
     line-height: 23px;
-  }
-  .card_details {
-    display: block;
-  }
-  .date br {
-    display: none;
   }
 
   .card_details .date p {
@@ -257,13 +338,7 @@
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 1px;
-    font-family: "Poppins", sans-serif;
     line-height: 27px;
-    color: #0b0b0b;
     margin: 0;
-  }
-  .tech_sub ul li {
-    font-size: 14px;
-    margin: 10px 0;
   }
 }

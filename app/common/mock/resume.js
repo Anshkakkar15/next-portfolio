@@ -51,22 +51,19 @@ export const TechnicalSkills = [
 
 export const EducationDetails = [
   {
-    heading: "Master Of Computer Application : ",
-    field: "Computer Science",
+    heading: "Master Of Computer Application",
     location: "Amity University ,Noida",
     startDate: "July 2023",
     endDate: "present",
   },
   {
-    heading: "Diploma in Web Technologies : ",
-    field: "Information & Technology",
+    heading: "Diploma in Web Technologies",
     location: "Hatron Skill Center ,Yamunanagar",
     startDate: "Nov 2021",
     endDate: "Dec 2022",
   },
   {
-    heading: "Bachelor Of Commerce : ",
-    field: "Business & Commerce",
+    heading: "Bachelor Of Commerce",
     location: "Kurukshetra University ,Kurukshetra",
     startDate: "Jul 2018 ",
     endDate: "Aug 2021",
@@ -75,10 +72,10 @@ export const EducationDetails = [
 
 export const ExperienceDetails = [
   {
-    heading: "Himtreasure Infotech, LLP,",
+    heading: "Himtreasure Infotech,",
     location: "React Developer",
     field: "Mohali",
-    startDate: "Sep 2022",
+    startDate: "Sep 2021",
     endDate: "Apr 2023",
     description: [
       {
