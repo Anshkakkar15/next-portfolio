@@ -66,7 +66,7 @@ export const EducationDetails = [
   },
   {
     heading: "Bachelor Of Commerce : ",
-    field: "Commerce",
+    field: "Business & Commerce",
     location: "Kurukshetra University ,Kurukshetra",
     startDate: "Jul 2018 ",
     endDate: "Aug 2021",

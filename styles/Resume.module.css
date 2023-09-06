@@ -14,7 +14,7 @@
 
 .res_layout {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 350px 1fr;
   grid-gap: 20px;
 }
 
@@ -44,7 +44,7 @@
   background-color: main-color;
   width: max-content;
   color: #fff;
-  padding: 68px 18px 43px 18px;
+  padding: 68px 10px 43px 10px;
 }
 .icons {
   display: flex;
@@ -166,8 +166,97 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .res_layout {
-    grid-template-columns: 1fr;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 830px) {
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 575px) {
+}
+@media screen and (max-width: 475px) {
+  .contact h1 {
+    font-size: 22px;
+    letter-spacing: 3px;
+  }
+  .res_out {
+    padding: 10px;
+  }
+  .contac_detail {
+    grid-template-columns: 8% 90%;
+  }
+  .contact p {
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+  .contac_lft {
+    padding: 58px 7px 33px 7px;
+  }
+  .cnt_mail a {
+    font-size: 16px;
+  }
+  .right_sec_v {
+    padding: 10px 19px;
+  }
+
+  .tech_sub ul li {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  .projects p {
+    line-height: 23px;
+    font-size: 14px;
+  }
+  .right_sec {
+    padding: 0;
+  }
+  .marg_tp {
+    margin-top: 13px;
+  }
+  .summary p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .card_details {
+    display: block;
+  }
+  .date br {
+    display: none;
+  }
+
+  .card_details .date p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .card_body h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  .card_body h3 {
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .card_body p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    line-height: 27px;
+    color: #0b0b0b;
+    margin: 0;
+  }
+  .tech_sub ul li {
+    font-size: 14px;
+    margin: 10px 0;
   }
 }

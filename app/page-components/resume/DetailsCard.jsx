@@ -13,7 +13,7 @@ export const DetailsCard = ({ styles, data }) => {
               </p>
             </div>
             <div className={styles.card_body}>
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center flex-wrap flex-lg-nowrap">
                 <h2>{elm?.heading}</h2>
                 <h3>{elm?.field}</h3>
               </div>

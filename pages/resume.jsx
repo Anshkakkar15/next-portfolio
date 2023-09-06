@@ -43,7 +43,7 @@ export default function resume() {
                   <hr />
                   {ContactDetails?.map((details, i) => {
                     return (
-                      <div key={i} className={styles.right_sec}>
+                      <div key={i} className={styles.right_sec_v}>
                         <div className={styles.cnt_mail}>
                           <h3>{details?.contact_head}</h3>
                           <a href={details?.url ? details?.url : "#"}>
@@ -62,8 +62,8 @@ export default function resume() {
                 </div>
                 <div className={styles.tech_sub}>
                   <ul>
-                    {TechnicalSkills?.map((skills) => {
-                      return <li>{skills?.tech}</li>;
+                    {TechnicalSkills?.map((skills, i) => {
+                      return <li key={i}>{skills?.tech}</li>;
                     })}
                   </ul>
                 </div>
