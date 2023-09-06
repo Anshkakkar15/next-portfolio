@@ -56,6 +56,13 @@
   font-size: 20px;
 }
 
+.right_sec_v {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 15px;
+}
+
 .right_sec {
   display: flex;
   flex-direction: column;
