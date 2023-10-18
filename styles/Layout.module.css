@@ -177,6 +177,8 @@
 /*  footer */
 
 .footer_head {
+  background-color: #fff;
+  margin-top: 80px;
   font-family: "Andika", sans-serif;
   padding: 4rem 0;
 }
