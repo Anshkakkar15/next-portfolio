@@ -27,8 +27,7 @@
   justify-content: center;
   background: #f9f8fd;
 }
-.project_logo img {
-}
+
 .blog_content {
   background-color: #fff;
   border-bottom-left-radius: 11px;
@@ -39,6 +38,7 @@
 .blog_content h2 {
   font-family: "Andika", sans-serif;
   font-size: 22px;
+  margin-bottom: 15px;
 }
 .blog_content a {
   color: #4831d4;
@@ -48,4 +48,42 @@
 
 .blog_content a:hover {
   text-shadow: 0px 1px 1px #4731d463;
+}
+
+@media only screen and (max-width: 1199px) {
+  .blog_content h2 {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  .blog_content a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .blog_content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .blog_content a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .blog_content h2 {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .blog_content a {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .blog_content h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .blog_content a {
+    font-size: 12px;
+  }
 }
