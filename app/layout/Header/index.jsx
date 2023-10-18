@@ -10,7 +10,11 @@ export const Header = ({ styles }) => {
     <>
       <div className="container">
         <nav className={styles.nav_wrapper}>
-          <div className={styles.logo}>Logo</div>
+          <div className={styles.logo}>
+            <Link className="text-decoration-none text-white" href={"/"}>
+              Logo
+            </Link>
+          </div>
           <div className="d-flex align-items-center">
             <div className={styles.contact_btn}>
               <button onClick={() => setOpenChat(!openChat)}>Contact</button>
