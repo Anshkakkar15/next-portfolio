@@ -15,80 +15,96 @@ export default function MyWork() {
       <div className="container">
         <div className={styles.blog_container}>
           <div class={styles.blog_card}>
-            <img
-              src="https://fastly.picsum.photos/id/949/1200/800.jpg?hmac=mW-_YmIqUMbyF5ydxz0QPn1GHneBWJEVlNCValTT5xw"
-              alt="white palace ceiling view"
-            />
+            <div className={styles.project_logo}>
+              <img
+                src="https://chomp-seven.vercel.app/static/media/logo.ed3a55143ec156986fd4b7e10b55996c.svg"
+                alt="white palace ceiling view"
+              />
+            </div>
             <div class={styles.blog_content}>
               <h2>Lorem ipsum dolor sit .</h2>
               <a href="#">View Live</a>
             </div>
           </div>
           <div class={styles.blog_card}>
-            <img
-              src="https://fastly.picsum.photos/id/949/1200/800.jpg?hmac=mW-_YmIqUMbyF5ydxz0QPn1GHneBWJEVlNCValTT5xw"
-              alt="white palace ceiling view"
-            />
+            <div className={styles.project_logo}>
+              <img
+                src="https://chomp-seven.vercel.app/static/media/logo.ed3a55143ec156986fd4b7e10b55996c.svg"
+                alt="white palace ceiling view"
+              />
+            </div>
             <div class={styles.blog_content}>
               <h2>Lorem ipsum dolor sit .</h2>
               <a href="#">View Live</a>
             </div>
           </div>
           <div class={styles.blog_card}>
-            <img
-              src="https://fastly.picsum.photos/id/949/1200/800.jpg?hmac=mW-_YmIqUMbyF5ydxz0QPn1GHneBWJEVlNCValTT5xw"
-              alt="white palace ceiling view"
-            />
+            <div className={styles.project_logo}>
+              <img
+                src="https://chomp-seven.vercel.app/static/media/logo.ed3a55143ec156986fd4b7e10b55996c.svg"
+                alt="white palace ceiling view"
+              />
+            </div>
             <div class={styles.blog_content}>
               <h2>Lorem ipsum dolor sit .</h2>
               <a href="#">View Live</a>
             </div>
           </div>
           <div class={styles.blog_card}>
-            <img
-              src="https://fastly.picsum.photos/id/949/1200/800.jpg?hmac=mW-_YmIqUMbyF5ydxz0QPn1GHneBWJEVlNCValTT5xw"
-              alt="white palace ceiling view"
-            />
+            <div className={styles.project_logo}>
+              <img
+                src="https://chomp-seven.vercel.app/static/media/logo.ed3a55143ec156986fd4b7e10b55996c.svg"
+                alt="white palace ceiling view"
+              />
+            </div>
             <div class={styles.blog_content}>
               <h2>Lorem ipsum dolor sit .</h2>
               <a href="#">View Live</a>
             </div>
           </div>
           <div class={styles.blog_card}>
-            <img
-              src="https://fastly.picsum.photos/id/949/1200/800.jpg?hmac=mW-_YmIqUMbyF5ydxz0QPn1GHneBWJEVlNCValTT5xw"
-              alt="white palace ceiling view"
-            />
+            <div className={styles.project_logo}>
+              <img
+                src="https://chomp-seven.vercel.app/static/media/logo.ed3a55143ec156986fd4b7e10b55996c.svg"
+                alt="white palace ceiling view"
+              />
+            </div>
             <div class={styles.blog_content}>
               <h2>Lorem ipsum dolor sit .</h2>
               <a href="#">View Live</a>
             </div>
           </div>
           <div class={styles.blog_card}>
-            <img
-              src="https://fastly.picsum.photos/id/949/1200/800.jpg?hmac=mW-_YmIqUMbyF5ydxz0QPn1GHneBWJEVlNCValTT5xw"
-              alt="white palace ceiling view"
-            />
+            <div className={styles.project_logo}>
+              <img
+                src="https://chomp-seven.vercel.app/static/media/logo.ed3a55143ec156986fd4b7e10b55996c.svg"
+                alt="white palace ceiling view"
+              />
+            </div>
             <div class={styles.blog_content}>
               <h2>Lorem ipsum dolor sit .</h2>
               <a href="#">View Live</a>
             </div>
           </div>
           <div class={styles.blog_card}>
-            <img
-              src="https://fastly.picsum.photos/id/949/1200/800.jpg?hmac=mW-_YmIqUMbyF5ydxz0QPn1GHneBWJEVlNCValTT5xw"
-              alt="white palace ceiling view"
-            />
+            <div className={styles.project_logo}>
+              <img
+                src="https://chomp-seven.vercel.app/static/media/logo.ed3a55143ec156986fd4b7e10b55996c.svg"
+                alt="white palace ceiling view"
+              />
+            </div>
             <div class={styles.blog_content}>
               <h2>Lorem ipsum dolor sit .</h2>
               <a href="#">View Live</a>
             </div>
           </div>
           <div class={styles.blog_card}>
-            <img
-              src="https://fastly.picsum.photos/id/949/1200/800.jpg?hmac=mW-_YmIqUMbyF5ydxz0QPn1GHneBWJEVlNCValTT5xw"
-              alt="white palace ceiling view"
-            />
+            <div className={styles.project_logo}>
+              <img
+                src="https://chomp-seven.vercel.app/static/media/logo.ed3a55143ec156986fd4b7e10b55996c.svg"
+                alt="white palace ceiling view"
+              />
+            </div>
             <div class={styles.blog_content}>
               <h2>Lorem ipsum dolor sit .</h2>
               <a href="#">View Live</a>

@@ -6,24 +6,29 @@
   margin: auto;
 }
 .blog_card {
-  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
   transition: 0.2s ease-in-out;
-  border-radius: 11px;
   height: 100%;
   background-color: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .blog_card:hover {
   transform: translateY(-1.5%);
 }
-
-.blog_card img {
+.project_logo {
+  margin: 0;
   height: 12rem;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 6px 6px 0 0;
+  display: flex;
+  align-items: center;
+  transition: filter 0.3s;
+  justify-content: center;
+  background: #f9f8fd;
 }
-
+.project_logo img {
+}
 .blog_content {
   background-color: #fff;
   border-bottom-left-radius: 11px;
