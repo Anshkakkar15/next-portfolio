@@ -76,7 +76,7 @@ export default function resume() {
                     <p>
                       Links to some of my work can be found on
                       <span>
-                        <Link href={"/work"}>ansh.dev/work</Link>
+                        <Link href={"/my-work"}>ansh.dev/work</Link>
                       </span>
                       and details can be provided upon request via a scheduled
                       demo call.

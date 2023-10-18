@@ -11,11 +11,6 @@ export const HeaderData = [
   },
   {
     id: 3,
-    slug: "/notes",
-    name: "notes",
-  },
-  {
-    id: 4,
     slug: "/resume",
     name: "resume",
   },
